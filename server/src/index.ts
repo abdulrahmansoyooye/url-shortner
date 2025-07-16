@@ -11,8 +11,6 @@ async function startServer(){
     try{
         app.listen(PORT, ()=> console.log(`Server running on port ${PORT}`))
 
-
-
     }catch(error){
         console.error("Failed to connect to server");
 
